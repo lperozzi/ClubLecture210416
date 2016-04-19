@@ -4,10 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>CartoDB.js: une librairie JavaScript au support de la cartographie interactive</title>
+
+		<meta name="author" content="Lorenzo Perozzi">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/night.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -21,11 +26,106 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
+
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section>
+					<h1>CartoDB.js</h1>
+					<h3>une librairie JavaScript au support de la cartographie interactive</h3>
+				</section>
+
+				<section>
+					<h4>Quelques exemples pour commencer</h4>
+				</section>
+
+				<section data-background-iframe="http://cartodb.github.io/lisbon-2014/#/2/24.5/-7.2/0">
+				</section>
+
+				<section data-background-iframe="http://www.tagesanzeiger.ch/extern/interactive/2014/fankarte/">
+				</section>
+
+				<section>
+					<div class="stretch">
+						<iframe data-src="http://googletrends.github.io/iframe-scaffolder/#/view?urls=First%20place%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D4%26center_lat%3D38.7572747%26center_lon%3D-94.1797144,Second%20place%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8731a0c2-3a22-11e5-832a-42010a149c0c%2Fembed_map%3Fzoom%3D4%26center_lat%3D38.7572747%26center_lon%3D-94.1797144,Colorado%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D6%26center_lat%3D38.997934%26center_lon%3D-105.550567,Florida%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D6%26center_lat%3D27.9437355%26center_lon%3D-81.0778875,Iowa%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D6%26center_lat%3D41.9383166%26center_lon%3D-93.3897979,New%20Hampshire%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D7%26center_lat%3D43.9537952%26center_lon%3D-71.5689368,Ohio%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D6%26center_lat%3D40.1903624%26center_lon%3D-82.6692525,Wisconsin%7Chttps:%2F%2Fgoogledataorg.cartodb.com%2Fu%2Fgoogledata%2Fviz%2F8c3f94c0-3a22-11e5-b525-42010a14cb63%2Fembed_map%3Fzoom%3D6%26center_lat%3D44.7862968%26center_lon%3D-89.8267049&layout=narrative&theme=yellow&title=Top%20Searched%20Republican%20Candidate%20By%20County&description=Top%20Searched%20Republican%20Candidate%20on%20Google%20by%20County.%20Highlight%20individual%20areas%20to%20see%20details.%20Scroll%20right%20to%20see%20second%20most%20searched%20candidate%20by%20county%20and%20battleground%20states" height="100%" width="100%"></iframe>
+					</div>
+				</section>
+
+				<section>
+					<div class="stretch">
+						<iframe data-src="				http://america.aljazeera.com/multimedia/2014/7/map-where-is-islamicstateoperating.html" height="100%" width="100%"></iframe>
+					</div>
+				</section>
+
+
+				<section>
+					<div class="stretch">
+						<iframe data-src="http://graphics.latimes.com/kobe-every-shot-ever/?utm_campaign=CartoDB&utm_content=32581170&utm_medium=social&utm_source=twitter" height="100%" width="100%"></iframe>
+					</div>
+				</section>
+
+
+				<section>
+					<div class="stretch">
+						<iframe data-src="file:///Users/lorenzoperozzi/Dropbox/WEB_APP/nycSchools/index.html" height="100%" width="100%"></iframe>
+					</div>
+				</section>
+
+				<section>
+					<div class="stretch">
+						<iframe data-src="http://map.datafrance.info/population" height="100%" width="100%"></iframe>
+					</div>
+				</section>
+
+				<section>
+					<div class="stretch">
+						<iframe data-src="http://illustreets.co.uk/explore-england/" height="100%" width="100%"></iframe>
+					</div>
+				</section>
+
+				<section>
+					<h2>
+						Que est-ce que c'est cartoDB?
+					</h2>
+				</section>
+
+				<section data-background-iframe="https://cartodb.com/">
+				</section>
+
+				<section>
+					<h2>
+						Structure des données
+					</h2>
+				</section>
+
+				<section data-background="img/maps.png">
+				</section>
+
+				<section data-background="img/dataset.png">
+				</section>
+
+				<section>
+					<h2>
+						Importation des données
+					</h2>
+				</section>
+
+				<section data-background="img/data_import.png">
+				</section>
+
+				<section data-background="img/makeamap.png">
+				</section>
+
+				<section>
+					<h2>
+						cartoDB.js
+					</h2>
+					<h4>a way to make maps using JavaScript</h4>
+				</section>
+
+
 			</div>
 		</div>
 
